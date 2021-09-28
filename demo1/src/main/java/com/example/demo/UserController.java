@@ -14,9 +14,9 @@ public class UserController {
 	}
 	
 	@PostMapping("/user")
-	private void post()
+	private string post()
 	{
-		System.out.println("post");
+		return "post";
 	}
 	
 	
